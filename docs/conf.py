@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'helloWorld'
-copyright = '2020, Michael Altfield'
-author = 'Michael Altfield'
+project = 'LibreCar'
+copyright = '2023, disdi'
+author = 'disdi'
 
 # The short X.Y version
 version = ''
@@ -264,8 +264,8 @@ html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language
 # "EDIT ON GITHUB" LINKS #
 ##########################
  
-html_context['display_github'] = True
-html_context['github_user'] = 'maltfield'
+html_context['display_github'] = False
+html_context['github_user'] = 'disdi'
 html_context['github_repo'] = 'rtd-github-pages'
 html_context['github_version'] = 'master/docs/'
  
